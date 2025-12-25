@@ -253,3 +253,34 @@ nav li a {
     font-style: normal;
     margin: 6px 0;
 }
+
+
+/* Run an Extra Mile Easily */
+.easily_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    border-radius: 16px;
+    background-color: rgb(43, 43, 43);
+    margin: 90px 0;
+}
+
+.easily_text {
+    width: 40%;
+    margin-left: 40px;
+}
+
+.easily_text h3 {
+    width: 80%;
+}
+
+.easily_text>.common_header p {
+    margin: 20px 0;
+}
+
+.easily_img img {
+    height: 250px;
+    width: 350px;
+    border-radius: 16px;
+}
