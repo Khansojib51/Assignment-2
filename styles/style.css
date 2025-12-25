@@ -284,3 +284,48 @@ nav li a {
     width: 350px;
     border-radius: 16px;
 }
+
+/* Meet Our team part style */
+
+.team>.common_header {
+    text-align: center;
+    width: 700px;
+    margin: 88px auto 58px;
+}
+
+.team_items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.team_img img {
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+}
+
+.team_img {
+    position: relative;
+}
+
+.team_trainer {
+    content: " ";
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.team_img h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.team_img p {
+    font-size: 14px;
+    color: #c5b8b8;
+}
