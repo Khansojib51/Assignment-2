@@ -198,3 +198,58 @@ nav li a {
     text-align: start;
     margin-left: 3rem;
 }
+
+
+/* change your habit part style */
+.Habits {
+    text-align: center;
+}
+
+.common_header {
+    margin-bottom: 40px;
+}
+
+.common_header h3 {
+    font-size: 2.50rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.common_header p {
+    font-size: 1rem;
+    color: rgba(146, 146, 146, 0.9);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    margin: 6px 0;
+}
+
+.habits_items {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.habits_item img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(73, 70, 70);
+    border-radius: 50%;
+}
+
+.habits_texts {
+    margin-top: 20px;
+}
+
+.habits_texts h4 {
+    font-size: 1.50rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.habits_texts p {
+    font-size: 1rem;
+    color: rgba(116, 115, 115, 0.9);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin: 6px 0;
+}
