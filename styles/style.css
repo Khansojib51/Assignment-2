@@ -70,3 +70,131 @@ nav li a {
     color: #fff;
     font-size: 2rem;
 }
+
+
+/* banner part style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_text {
+    margin-top: 6rem;
+}
+
+.banner_text h1 {
+    font-size: 4.87rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.banner_text span {
+    font-style: italic;
+    font-family: "Miama";
+    src: url("Font/Miama.ttf") format("truetype");
+}
+
+
+.banner_text p {
+    font-style: italic;
+    font-size: 1rem;
+    color: rgba(117, 116, 116, 0.9);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin: 1.55rem 1.55rem 1.55rem 0;
+}
+
+.common-btn {
+    background-color: #E6533C;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 3.5rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.common-btn:hover {
+    background-color: #141815;
+    transition: 1s;
+}
+
+
+.download_btn {
+    background-color: #000;
+    border: 1px solid #bbbaba;
+    padding: 1rem 4rem;
+    border-radius: 3.5rem;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.banner_img {
+    height: 680px;
+}
+
+.banner_img img {
+    width: 100%;
+}
+
+.free_working_video {
+    padding: 17px;
+    padding-left: 0;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0;
+    width: 14rem;
+    background-color: rgba(95, 95, 95, .6);
+    z-index: 1;
+    position: relative;
+    right: -14rem;
+    top: -28rem;
+}
+
+.free_working_video h3 {
+    font-size: 2.50rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.free_working_video,
+.tutorial_box small {
+    color: #ffffff;
+}
+
+.tutorial_box {
+    padding: 17px;
+    padding-top: 0;
+    text-align: center;
+    border-radius: 12px;
+    width: 14rem;
+    background-color: rgba(95, 95, 95, .6);
+    z-index: 1;
+    position: relative;
+    left: -8rem;
+    top: -16rem;
+}
+
+.tutorial_box h3 {
+    font-size: 1.50rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.free_working_video small {
+    color: #ffffff;
+}
+
+.ball_icon {
+    height: 30px;
+    width: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    position: relative;
+    top: 2.50rem;
+}
+
+.ball_text {
+    text-align: start;
+    margin-left: 3rem;
+}
